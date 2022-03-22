@@ -4,6 +4,8 @@ declare module "styled-components" {
       white: string;
       black: string;
       gray: string;
+      blue:string;
+      green:string;
     };
 
     breakpoints: {
