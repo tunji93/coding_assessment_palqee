@@ -18,7 +18,7 @@ export const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps):JSX.Element {
   return (
     <LayoutContextProvider>
       <ApolloProvider client={client}>
