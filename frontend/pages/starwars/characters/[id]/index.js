@@ -39,7 +39,9 @@ const CharacterDetails = ({ id }) => {
     fetch("http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote")
       .then((response) => response.json())
       .then((data) => {
+        // console.log(data, 'heererer')
         setQuote(data.content);
+
         setLoading(false);
       })
       .catch((err) => setError(true));

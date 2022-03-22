@@ -36,7 +36,7 @@ const PaginationCtx = styled.ul`
     }
 
     &.selected {
-      background-color: ${({ theme }) => theme.colors.black};
+      background-color: grey;
       color: ${({ theme }) => theme.colors.white};
     }
 
